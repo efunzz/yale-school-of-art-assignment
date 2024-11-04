@@ -1,27 +1,38 @@
-# YaleSchoolOfArt
+# Yale School of Art Redesign
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+This project is a redesign concept for the Yale School of Art website, created with angular. The aim is to demonstrate UI/UX design skills and Angular coding ability by enhancing the existing site.
 
-## Development server
+## Objective
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The objective of this project is to redesign the Yale School of Art website with a focus on improving user experience, refreshing the UI, and establishing a new brand identity. This concept leverages the existing content and assets but provides a fresh, intuitive, and engaging design.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**
+- **Tailwind CSS**
+- **GitHub**
+- **GitHub Desktop**
 
-## Build
+## Setup Instructions
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Clone the GitHub Repository**:  
+   First, copy the GitHub repository to your local machine using the following command:
 
-## Running unit tests
+   ```bash
+   git clone <repository-url>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```
 
-## Running end-to-end tests
+2. **Development Server**:  
+   Run `ng serve` for a local development server. Navigate to `http://localhost:4200/` to view the website.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Acknowledgments and Areas for Improvement
 
-## Further help
+I recognize that there are several areas where this project could be further enhanced. These include:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Adding Animations**: Incorporating animations would improve user interactions and make the experience more engaging.
+- **Mobile Responsiveness**: While the design is functional on desktop, further refinements for mobile responsiveness.
+
+Due to time constraints and the main focus on the overall design, I was unable to implement these enhancements fully.
+
+I am eager to further improve my skills and knowledge by learning from experienced developers in your company as a frontend developer intern and contribute to it too. This opportunity would provide invaluable insights and mentorship that I believe would significantly contribute to my growth in web development.
