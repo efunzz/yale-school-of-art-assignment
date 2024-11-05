@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
+import { HeroComponent } from '../../components/hero/hero.component';
 import { AboutusComponent } from '../../components/aboutus/aboutus.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { ExhibitionComponent } from '../../components/exhibition/exhibition.component';
@@ -9,6 +10,7 @@ import { CalendarComponent } from '../../components/calendar/calendar.component'
   standalone: true,
   imports: [
     NavbarComponent,
+    HeroComponent,
     AboutusComponent,
     FooterComponent,
     ExhibitionComponent,
