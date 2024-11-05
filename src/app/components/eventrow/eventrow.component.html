@@ -1,0 +1,22 @@
+<div class="grid grid-cols-3 items-center w-full mb-6">
+  <!-- date column -->
+  <div class="text-center text-2xl font-bold border-r border-gray-300 pr-4">
+    {{ event.date }} <br />
+    {{ event.month }}
+  </div>
+
+  <!-- details column -->
+  <div class="flex items-start pl-4">
+    <img
+      [src]="event.imageSrc"
+      alt="{{ event.title }}"
+      class="w-32 h-32 object-cover mr-4"
+    />
+    <p class="text-lg">{{ event.title }} {{ event.description }}</p>
+  </div>
+
+  <!-- button column -->
+  <div class="text-center">
+    <a href="#" class="bg-black text-white py-2 px-4">Learn More</a>
+  </div>
+</div>

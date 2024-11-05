@@ -12,22 +12,22 @@ import { ExhibitionComponent } from '../../components/exhibition/exhibition.comp
 export class HomeComponent {
   exhibitions = [
     {
-      imageUrl: 'assets/exhibition-1.png',
+      imageUrl: 'exhibition-1.png',
       title: 'Exhibition Title 1',
       description: 'Brief description of Exhibition 1.',
     },
     {
-      imageUrl: 'assets/exhibition-2.jpeg',
+      imageUrl: 'exhibition-2.jpeg',
       title: 'Exhibition Title 2',
       description: 'Brief description of Exhibition 2.',
     },
     {
-      imageUrl: 'assets/exhibition-3.jpeg',
+      imageUrl: 'exhibition-3.jpeg',
       title: 'Exhibition Title 3',
       description: 'Brief description of Exhibition 3.',
     },
     {
-      imageUrl: 'assets/exhibition-4.jpeg',
+      imageUrl: 'exhibition-4.jpeg',
       title: 'Exhibition Title 4',
       description: 'Brief description of Exhibition 4.',
     },
