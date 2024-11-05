@@ -1,25 +1,18 @@
 <app-navbar></app-navbar>
 <app-hero></app-hero>
-<!-- seperator line -->
+
 <div class="border-b border-black"></div>
 <!-- school image section -->
-<div class="w-full h-[calc(100vh-20rem)]">
-  <img
-    src="school-picture.png"
-    alt="Yale School of Arts"
-    class="w-full h-full object-cover"
-  />
-</div>
-
+<app-mainimage></app-mainimage>
 <div class="border-b border-black"></div>
 <!-- about section -->
 <app-aboutus></app-aboutus>
-<!-- seperator line -->
+<!-- exhibition section -->
 <div class="border-b border-black"></div>
 <app-exhibition [exhibitions]="exhibitions"></app-exhibition>
-<!-- seperator line -->
+<!-- calendar section -->
 <div class="border-b border-black mt-8"></div>
 <app-calendar [events]="events"></app-calendar>
-<!-- separator line -->
+<!-- footer section -->
 <div class="border-b border-black"></div>
 <app-footer></app-footer>
