@@ -39,46 +39,12 @@
 <div class="border-b border-black"></div>
 
 <!-- about section -->
-<h2 class="text-4xl font-bold mb-2 text-left w-full">About</h2>
-<div class="border-b border-black w-full mb-4"></div>
-
-<div
-  class="about px-8 py-12 bg-gray-50 text-gray-800 flex flex-col md:flex-row items-center md:items-stretch"
->
-  <!-- left column  -->
-  <div
-    class="md:w-1/2 flex flex-col justify-center items-start text-left mb-8 md:mb-0"
-  >
-    <h2 class="text-8xl font-bold mb-4">About Us</h2>
-    <p class="text-lg">
-      The mission of the Yale School of Art is to provide students with
-      intellectually informed, hands-on instruction in the practice of an array
-      of visual arts media within the context of a liberal arts university. As a
-      part of the first institution of higher learning to successfully integrate
-      a studio-based education into such a broad pedagogical framework, the Yale
-      School of Art has a long and distinguished history of training artists of
-      the highest caliber. A full-time faculty of working artists in conjunction
-      with a diverse cross-section of accomplished visiting artists collaborate
-      to design a program and foster an environment where the unique talents and
-      perspectives of individual students can emerge and flourish.
-    </p>
-  </div>
-
-  <!-- right column -->
-  <div class="md:w-1/2">
-    <img
-      src="school-picture2.jpg"
-      alt="Yale School of Art"
-      class="w-full h-full object-cover"
-    />
-  </div>
-</div>
+<app-aboutus></app-aboutus>
 <!-- seperator line -->
 <div class="border-b border-black"></div>
 <app-exhibition [exhibitions]="exhibitions"></app-exhibition>
 <!-- seperator line -->
 <div class="border-b border-black mt-8"></div>
-
 <app-calendar [events]="events"></app-calendar>
 <!-- separator line -->
 <div class="border-b border-black"></div>
