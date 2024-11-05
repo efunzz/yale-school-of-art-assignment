@@ -1,1 +1,14 @@
-<p>exhibition works!</p>
+<!-- exhibition section -->
+<div class="flex flex-col items-center">
+  <h2 class="text-4xl font-bold mb-2 text-left w-full">Exhibitions</h2>
+  <div class="border-b border-black w-full mb-4"></div>
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 justify-items-center"
+  >
+    <!-- Use *ngFor to loop through exhibition array -->
+    <app-card
+      *ngFor="let exhibition of exhibitions"
+      [exhibition]="exhibition"
+    ></app-card>
+  </div>
+</div>

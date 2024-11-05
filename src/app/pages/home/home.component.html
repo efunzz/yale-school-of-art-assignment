@@ -75,78 +75,7 @@
 </div>
 <!-- seperator line -->
 <div class="border-b border-black"></div>
-<!-- exhibition section -->
-<div class="flex flex-col items-center">
-  <h2 class="text-4xl font-bold mb-2 text-left w-full">Exhibitions</h2>
-  <div class="border-b border-black w-full mb-4"></div>
-  <div class="grid grid-cols-4 gap-10 justify-items-center">
-    <!-- card 1 -->
-    <div class="relative border border-black p-6 w-64 h-300">
-      <img
-        src="exhibition-1.png"
-        alt="Exhibition 1"
-        class="w-full h-80 object-cover"
-      />
-      <h3 class="text-xl font-semibold mt-4">Exhibition Title 1</h3>
-      <p class="mt-2">Brief description of Exhibition 1.</p>
-      <a
-        href="#"
-        class="absolute bottom-4 right-4 text-black hover:text-gray-600"
-      >
-        ➔
-      </a>
-    </div>
-    <!-- card 2 -->
-    <div class="relative border border-black p-6 w-64 h-300">
-      <img
-        src="exhibition-2.jpeg"
-        alt="Exhibition 2"
-        class="w-full h-80 object-cover"
-      />
-      <h3 class="text-xl font-semibold mt-4">Exhibition Title 2</h3>
-      <p class="mt-2">Brief description of Exhibition 2.</p>
-      <a
-        href="#"
-        class="absolute bottom-4 right-4 text-black hover:text-gray-600"
-      >
-        ➔
-      </a>
-    </div>
-    <!-- card 3 -->
-    <div class="relative border border-black p-6 w-64 h-300">
-      <img
-        src="exhibition-3.jpeg"
-        alt="Exhibition 3"
-        class="w-full h-80 object-cover"
-      />
-      <h3 class="text-xl font-semibold mt-4">Exhibition Title 3</h3>
-      <p class="mt-2">Brief description of Exhibition 3.</p>
-      <a
-        href="#"
-        class="absolute bottom-4 right-4 text-black hover:text-gray-600"
-      >
-        ➔
-      </a>
-    </div>
-
-    <!-- card 4 -->
-    <div class="relative border border-black p-6 w-64 h-300">
-      <img
-        src="exhibition-4.jpeg"
-        alt="Exhibition 4"
-        class="w-full h-80 object-cover"
-      />
-      <h3 class="text-xl font-semibold mt-4">Exhibition Title 4</h3>
-      <p class="mt-2">Brief description of Exhibition 4.</p>
-      <a
-        href="#"
-        class="absolute bottom-4 right-4 text-black hover:text-gray-600"
-      >
-        ➔
-      </a>
-    </div>
-  </div>
-</div>
+<app-exhibition [exhibitions]="exhibitions"></app-exhibition>
 <!-- seperator line -->
 <div class="border-b border-black mt-8"></div>
 
