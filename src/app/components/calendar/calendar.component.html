@@ -1,0 +1,9 @@
+<!-- calendar section -->
+<div class="flex flex-col items-center">
+  <h2 class="text-4xl font-bold mb-2 w-full text-left">Calendar</h2>
+  <div class="border-b border-black w-full mb-4"></div>
+  <!-- Loop through the exhibitions and create an EventRow for each event-->
+  <ng-container>
+    <app-eventrow *ngFor="let event of events" [event]="event"></app-eventrow>
+  </ng-container>
+</div>
